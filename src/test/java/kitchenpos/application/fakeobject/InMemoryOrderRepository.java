@@ -1,4 +1,4 @@
-package kitchenpos.application;
+package kitchenpos.application.fakeobject;
 
 import kitchenpos.order.domain.Order;
 import kitchenpos.order.domain.OrderRepository;

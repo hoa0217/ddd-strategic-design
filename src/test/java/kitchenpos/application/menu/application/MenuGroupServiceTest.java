@@ -1,5 +1,6 @@
-package kitchenpos.application;
+package kitchenpos.application.menu.application;
 
+import kitchenpos.application.fakeobject.InMemoryMenuGroupRepository;
 import kitchenpos.menu.application.MenuGroupService;
 import kitchenpos.menu.domain.MenuGroup;
 import kitchenpos.menu.domain.MenuGroupRepository;
@@ -11,7 +12,7 @@ import org.junit.jupiter.params.provider.NullAndEmptySource;
 
 import java.util.List;
 
-import static kitchenpos.Fixtures.menuGroup;
+import static kitchenpos.application.fixtures.Fixtures.menuGroup;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.junit.jupiter.api.Assertions.assertAll;
