@@ -1,4 +1,4 @@
-package kitchenpos.menu.domain;
+package kitchenpos.menu.domain.menu;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -14,6 +14,7 @@ import jakarta.persistence.Transient;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.UUID;
+import kitchenpos.menu.domain.menugroup.MenuGroup;
 
 @Table(name = "menu")
 @Entity

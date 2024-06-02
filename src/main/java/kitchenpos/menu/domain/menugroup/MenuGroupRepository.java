@@ -1,9 +1,9 @@
-package kitchenpos.menu.domain;
+package kitchenpos.menu.domain.menugroup;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
-import kitchenpos.menu.domain.MenuGroup;
+import kitchenpos.menu.domain.menugroup.MenuGroup;
 
 public interface MenuGroupRepository {
     MenuGroup save(MenuGroup menuGroup);

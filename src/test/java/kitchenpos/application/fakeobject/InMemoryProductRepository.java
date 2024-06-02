@@ -1,7 +1,7 @@
 package kitchenpos.application.fakeobject;
 
-import kitchenpos.product.domain.Product;
-import kitchenpos.product.domain.ProductRepository;
+import kitchenpos.product.domain.product.Product;
+import kitchenpos.product.domain.product.ProductRepository;
 
 import java.util.ArrayList;
 import java.util.HashMap;

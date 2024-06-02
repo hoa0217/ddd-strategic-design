@@ -1,9 +1,9 @@
 package kitchenpos.application.fakeobject;
 
-import kitchenpos.order.domain.Order;
-import kitchenpos.order.domain.OrderRepository;
-import kitchenpos.order.domain.OrderStatus;
-import kitchenpos.order.domain.OrderTable;
+import kitchenpos.order.domain.order.Order;
+import kitchenpos.order.domain.order.OrderRepository;
+import kitchenpos.order.domain.order.OrderStatus;
+import kitchenpos.order.domain.ordertable.OrderTable;
 
 import java.util.ArrayList;
 import java.util.HashMap;

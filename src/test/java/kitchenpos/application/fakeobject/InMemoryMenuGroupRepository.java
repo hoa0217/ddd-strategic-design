@@ -1,7 +1,7 @@
 package kitchenpos.application.fakeobject;
 
-import kitchenpos.menu.domain.MenuGroup;
-import kitchenpos.menu.domain.MenuGroupRepository;
+import kitchenpos.menu.domain.menugroup.MenuGroup;
+import kitchenpos.menu.domain.menugroup.MenuGroupRepository;
 
 import java.util.ArrayList;
 import java.util.HashMap;
